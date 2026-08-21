@@ -20,3 +20,14 @@ img.azul {
     display: block;
     border-radius: 50%;
 }
+
+/* Pai de todos */
+#wrap {
+
+}
+
+
+h1 {
+    /* Oculta o H1 com nome do site */
+    /* display: none; */
+}
