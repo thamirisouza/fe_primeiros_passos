@@ -1,0 +1,22 @@
+/*
+css\style.css
+Folhas de estilo do template do site.
+*/
+
+body {
+    background-color: cadetblue;
+}
+
+/* Classe azul aplicada somente para paráfros */
+p.azul,
+div.azul {
+    background-color: aqua;
+    padding: 1rem;
+    margin: 0;
+    border: 1px solid black;
+}
+
+img.azul {
+    display: block;
+    border-radius: 50%;
+}
