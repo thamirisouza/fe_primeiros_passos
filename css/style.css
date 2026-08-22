@@ -4,13 +4,13 @@ Folhas de estilo do template do site.
 */
 
 body {
-    background-color: cadetblue;
+    background-color: rgb(247, 177, 215);
 }
 
 /* Classe azul aplicada somente para paráfros */
 p.azul,
 div.azul {
-    background-color: aqua;
+    background-color: rgb(216, 127, 252);
     padding: 1rem;
     margin: 0;
     border: 1px solid black;
