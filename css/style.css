@@ -3,31 +3,97 @@ css\style.css
 Folhas de estilo do template do site.
 */
 
+/*
+Importa fonte Robot do Google Fonts
+Referências: https://fonts.google.com
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+Importa a biblioteca de ícones FontAwesome
+Referências: https://fontawesome.com
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css');
+
+
+/* Reset Geral */
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* Elementos raiz */
+html,
 body {
-    background-color: rgb(247, 177, 215);
-}
-
-/* Classe azul aplicada somente para paráfros */
-p.azul,
-div.azul {
-    background-color: rgb(216, 127, 252);
-    padding: 1rem;
+    /* Reset nas margens e enchimentos */
+    position: relative;
+    /* Permite usar height nos elementos div */
     margin: 0;
-    border: 1px solid black;
+    padding: 0;
+    height: 100%;
+
+    /* Fonte padrão e tamanho */
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /*
+    A linha acima define a unidade de medida "rem" onde:
+    1rem = 16px
+    .5rem ou 0.5rem = 8px
+    .25rem ou 0.25rem = 4px
+    2rem = 32px
+    3rem = 48px
+    */
 }
 
-img.azul {
-    display: block;
-    border-radius: 50%;
+/* 
+Reset dos títulos e parágrafos
+trocando margin por padding
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: .5rem;
 }
 
-/* Pai de todos */
+/* Padroniza links */
+a {
+    color: rgb(8, 19, 27);
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+/* Tela de fundo */
+body {
+    /* background: linear-gradient(to right, blue, red, cyan); */
+    background-image: url("../img/bg01.jpg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Elemento Wrap */
 #wrap {
-
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    height: 100%;
 }
 
 
-h1 {
-    /* Oculta o H1 com nome do site */
-    /* display: none; */
+
+/* Imagem responsiva */
+.azul {
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }
