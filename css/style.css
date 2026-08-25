@@ -62,7 +62,7 @@ p {
 
 /* Padroniza links */
 a {
-    color: rgb(8, 19, 27);
+    color: steelblue;
     text-decoration: none;
 }
 
@@ -81,19 +81,80 @@ body {
     background-attachment: fixed;
 }
 
-/* Elemento Wrap */
-#wrap {
-    max-width: 1080px;
-    margin: auto;
-    position: relative;
-    height: 100%;
-}
-
-
 
 /* Imagem responsiva */
 .azul {
     width: auto;
     max-width: 100%;
     height: auto;
+}
+
+/* Elemento Wrap */
+#wrap {
+    max-width: 1080px;
+    margin: auto;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho da página */
+
+/* header é filho direto de #wrap (>)
+parent > direct-child */
+#wrap>header {
+    background-color: rgb(135, 238, 252);
+    border-radius: .5rem;
+    margin: .5rem;
+}
+
+#wrap>header img {
+    display: block;
+    width: 90px;
+    border-radius: 50%;
+    margin: .5rem;
+}
+
+/* Referências: https://www.w3schools.com/css/css3_flexbox.asp */
+.logotitle {
+    display: flex;
+    align-items: center;
+}
+
+.logotitle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* Experimental: adicionar uma borda ao texto */
+    -webkit-text-stroke: .75px white;
+}
+
+/* Formulário de pesquisa */
+.header-search {
+    padding: 1rem;
+    display: flex;
+}
+
+/* Filhos do formulário */
+.header-search * {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+}
+
+.header-search input {
+    padding: .5rem 1rem;
+    flex-grow: 1;
+    border-radius: .3rem 0 0 .3rem;
+}
+
+.header-search button {
+    padding: .5rem;
+    border-radius: 0 .3rem .3rem 0;
+    cursor: pointer;
+}
+
+/* Menu principal */
+#wrap>nav {
+    background-color: black;
 }
