@@ -17,26 +17,39 @@
 
         <header>
             <!-- Logotipo clicável para a página inicial -->
-             <div class ="logotitle"
-            <a href="index.html">
-                <img src="img/logo01.png" alt="Logotipo do FirstSteps">
-            </a>
-            <h1>FirstSteps</h1>
-        </div>
-        
-            <form action="https://www.google.com/search" target="_blank" method="get">
-                <input type="search" name="q">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal fa-fw"></i></button>
+            <div class="logotitle" title="Clique para a página inicial" aria-label="Clique para a página inicial">
+                <a href="index.html">
+                    <img src="img/logo01.png" alt="Logotipo do FirstSteps">
+                </a>
+                <h1>FirstSteps</h1>
+            </div>
+
+            <form class="header-search" action="https://www.google.com/search" target="_blank" method="get">
+                <input type="search" name="q" placeholder="Pesquisar...">
+                <button type="submit" title="Clique para pesquisar" aria-label="Clique para pesquisar"><i
+                        class="fa-solid fa-magnifying-glass fa-flip-horizontal fa-fw"></i></button>
             </form>
 
-         </header>
+        </header>
 
-        <nav>
+        <nav aria-label="Menu principal">
 
-            <a href="index.html">Início</a>
-            <a href="content.html">Conteúdo</a>
-            <a href="contacts.html">Contatos</a>
-            <a href="about.html">Sobre</a>
+            <a href="index.html" title="Página inicial">
+                <i class="fa-solid fa-house fa-fw"></i>
+                <span>Início</span>
+            </a>
+            <a href="content.html" title="Conteúdo do site" aria-label="Conteúdo do site">
+                <i class="fa-solid fa-file-lines fa-fw"></i>
+                <span>Conteúdo</span>
+            </a>
+            <a href="contacts.html" title="Faça contato" aria-label="Faça contato">
+                <i class="fa-solid fa-comments fa-fw"></i>
+                <span>Contatos</span>
+            </a>
+            <a href="about.html" title="Mais informações" aria-label="Mais informações">
+                <i class="fa-solid fa-circle-info fa-fw"></i>
+                <span>Sobre</span>
+            </a>
 
         </nav>
 
@@ -44,18 +57,25 @@
 
             <section>
 
-                <h2>Título desta página</h2>
-                <p class="azul">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam ex. Commodi
+                 <h2>Título desta página</h2>
+
+                <p class="azul">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam
+                    ex. Commodi
                     quam ducimus beatae porro possimus exercitationem consequatur accusantium quis, dicta quas illo
-                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam ex. Commodi
+                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                    pariatur nesciunt ullam ex. Commodi
                     quam ducimus beatae porro possimus exercitationem consequatur accusantium quis, dicta quas illo
-                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam ex. Commodi
+                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                    pariatur nesciunt ullam ex. Commodi
                     quam ducimus beatae porro possimus exercitationem consequatur accusantium quis, dicta quas illo
-                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam ex. Commodi
+                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                    pariatur nesciunt ullam ex. Commodi
                     quam ducimus beatae porro possimus exercitationem consequatur accusantium quis, dicta quas illo
-                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam ex. Commodi
+                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                    pariatur nesciunt ullam ex. Commodi
                     quam ducimus beatae porro possimus exercitationem consequatur accusantium quis, dicta quas illo
-                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque pariatur nesciunt ullam ex. Commodi
+                    quasi quia perferendis nostrum?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+                    pariatur nesciunt ullam ex. Commodi
                     quam ducimus beatae porro possimus exercitationem consequatur accusantium quis, dicta quas illo
                     quasi quia perferendis nostrum?</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos consectetur ut cumque, et atque
@@ -70,7 +90,7 @@
                     <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
                 </ul>
 
-                <img class="azul" src="https://picsum.photos/400/200" alt="Imagem aleatória">
+                <img class="rimg" src="https://picsum.photos/400/200" alt="Imagem aleatória">
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam eius libero quos, commodi explicabo
                     voluptates voluptas temporibus nam facilis dolorum, dicta rerum repellendus! Minima numquam deleniti
@@ -83,6 +103,7 @@
                 <p class="azul">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora commodi, dicta aliquam
                     beatae sint libero similique necessitatibus quod ratione deleniti consequuntur amet aperiam aut.
                     Commodi quia dicta cupiditate odit provident.</p>
+
 
             </section>
 
@@ -110,6 +131,7 @@
             </a>
 
         </footer>
+        <div class="end-margin">&nbsp;</div>
 
     </div>
 
