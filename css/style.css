@@ -26,12 +26,12 @@ Referências: https://fontawesome.com
     --default-links-hover: orangered;
     --body-background-image: url("../img/bg01.jpg");
     --body-background-color: rgb(150, 225, 248);
-    --header-background-color: rgba(144, 235, 241, 0.8);
+    --header-background-color:rgba(255, 255, 255, 0.8);
     --header-logo-font: Arial, helvetica, sans-serif;
     --header-title-stroke: .75px rgb(255, 255, 255);
     --nav-footer-background-color: black;
-    --article-section-background-color: rgba(255, 255, 255, 0.8);;
-    --aside-background-color: rgba(238, 238, 238, .8);
+    --article-section-background-color: rgba(255, 255, 255, 0.8);
+    --aside-background-color: rgba(238, 238, 238, 0.8);
     --top-search-border: 3px dotted white;
     --nav-menu-color: white;
     --nav-menu-hover-color: white;
