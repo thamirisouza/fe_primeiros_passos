@@ -59,8 +59,7 @@ body {
     /* Fonte padrão e tamanho */
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: #2d0369;
-
+   
     /*
     A linha acima define a unidade de medida "rem" onde:
     1rem = 16px
@@ -171,6 +170,7 @@ Referências: https://www.w3schools.com/css/css3_flexbox.asp
     font-weight: bold;
     /* Experimental: adicionar uma borda ao texto */
     -webkit-text-stroke: var(--header-title-stroke);
+     color: #2d0369;
 }
 
 /* Formulário de pesquisa no cabeçalho */
