@@ -20,13 +20,11 @@
    ======================================== */
 
 .about-content h2 {
-    color: #6a4c93;
+    color: oklch(48.084% 0.11425 301.764);
     font-size: 28px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
-
-
 /* ========================================
    PARÁGRAFOS
    ======================================== */
@@ -49,14 +47,14 @@
     border-left: 5px solid #6a4c93;
 }
 
-
 /* Título da área lateral */
 
 .about-aside h3 {
     color: #6a4c93;
 }
-
 /* Texto da área lateral */
 .about-aside p {
     line-height: 1.6;
+    color: rgb(0, 0, 0, 0.8);
+    text-justify: distribute-all-lines;
 }
