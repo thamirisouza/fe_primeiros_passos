@@ -29,7 +29,7 @@ Referências: https://fontawesome.com
     --header-background-color:rgba(255, 255, 255, 0.8);
     --header-logo-font: Arial, helvetica, sans-serif;
     --header-title-stroke: .75px rgb(255, 255, 255);
-    --nav-footer-background-color: black;
+    --nav-footer-background-color: rgb(75, 46, 131);
     --article-section-background-color: rgba(255, 255, 255, 0.8);
     --aside-background-color: rgba(238, 238, 238, 0.8);
     --top-search-border: 3px dotted white;
@@ -212,7 +212,7 @@ Referências: https://www.w3schools.com/css/css3_flexbox.asp
     margin: .5rem;
     margin-top: 0;
     border-radius: .5rem;
-    border: 1px solid black;
+    border: 1px solid rgb(75, 46, 131);
     /* Posiciona os elementos filho à direita */
     justify-content: end;
 }
